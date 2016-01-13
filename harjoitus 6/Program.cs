@@ -25,8 +25,9 @@ namespace harjoitus_6
             double kulutus= 7.02;
             double bensa = matka / 100 * kulutus;
             double hinta= bensa*kulutus;
+         double   bensanhinta = 1.595;
             Console.WriteLine("bensan kulutus{0:F2} litraa. ",bensa);
-            Console.WriteLine("hinta on {0:F2} euroa. ", hinta);
+            Console.WriteLine("hinta on {0:F2} euroa. ", kulutus*bensanhinta);
 
 
         }
